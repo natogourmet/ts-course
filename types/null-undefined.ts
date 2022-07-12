@@ -1,0 +1,6 @@
+(() => {
+
+  let nothing: undefined = undefined;
+  
+  
+})
