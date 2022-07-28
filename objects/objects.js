@@ -5,12 +5,9 @@
         age: 21,
         powers: ['Hamon', 'Smart', 'Strong', 'Funny']
     };
-    jojo = {
+    let jojo2 = {
         name: 'Jotaro',
-        age: 24,
-        powers: ['Stand'],
-        getName() {
-            return this.name;
-        }
+        age: 17,
+        powers: ['Stand', 'Smart', 'Strong']
     };
 })();
