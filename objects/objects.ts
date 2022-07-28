@@ -1,6 +1,6 @@
 (()=> {
 
-  let jojo = {
+  let jojo: { name: string, age: number, powers: string[] } = {
     name: 'Joseph',
     age: 21,
     powers: ['Hamon', 'Smart', 'Strong', 'Funny']
