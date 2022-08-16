@@ -8,3 +8,4 @@
     })(AudioLevel || (AudioLevel = {}));
     let currentAudioLevel = AudioLevel.mid; // prints 1
 });
+//# sourceMappingURL=enums.js.map

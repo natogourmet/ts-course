@@ -8,3 +8,4 @@
     };
     callBatman();
 });
+//# sourceMappingURL=void.js.map

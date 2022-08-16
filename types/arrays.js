@@ -4,3 +4,4 @@
     const villains = ['Octavius', 'Sandman', 'Rhino'];
     villains.forEach(v => console.log(v.toUpperCase()));
 });
+//# sourceMappingURL=arrays.js.map

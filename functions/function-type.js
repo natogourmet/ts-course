@@ -8,3 +8,4 @@
     myFunction = addNumber;
     myFunction(1, 2);
 })();
+//# sourceMappingURL=function-type.js.map

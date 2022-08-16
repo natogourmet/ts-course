@@ -5,3 +5,4 @@
     };
     console.log(fullName('Tony', 'Stark'));
 })();
+//# sourceMappingURL=arg-required.js.map

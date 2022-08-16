@@ -8,3 +8,4 @@
         powers: ['Hamon', 'Strategic']
     };
 })();
+//# sourceMappingURL=union-types.js.map

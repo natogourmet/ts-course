@@ -9,3 +9,4 @@
     };
     console.log(typeof callBatman);
 });
+//# sourceMappingURL=functions.js.map

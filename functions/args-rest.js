@@ -6,3 +6,4 @@
     const jojo = fullName('Jonathan', 'Joseph', 'Joestar');
     console.log(jojo);
 })();
+//# sourceMappingURL=args-rest.js.map

@@ -8,3 +8,4 @@
     console.log(((_a = spiderman[10]) === null || _a === void 0 ? void 0 : _a.toUpperCase) || 'Not round');
     console.log(spiderman.toUpperCase);
 });
+//# sourceMappingURL=strings.js.map

@@ -11,3 +11,4 @@
         powers: ['Stand', 'Smart', 'Strong']
     };
 })();
+//# sourceMappingURL=objects.js.map
