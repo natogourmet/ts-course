@@ -103,7 +103,7 @@
   "exclude": [
     "node_modules_test",
   ],
-  // "include": [
-  //   "node_modules"
-  // ]
+  "include": [
+    "ES6"
+  ]
 }
