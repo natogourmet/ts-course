@@ -2,7 +2,7 @@
 (() => {
     let avengers;
     const villains = 20;
-    avengers = Number('50'); // returns NaN which is a number but causes error
+    avengers = Number('50');
     if (avengers < villains) {
         console.log('We good');
     }

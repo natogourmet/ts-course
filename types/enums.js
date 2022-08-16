@@ -6,6 +6,6 @@
         AudioLevel[AudioLevel["mid"] = 1] = "mid";
         AudioLevel[AudioLevel["max"] = 2] = "max";
     })(AudioLevel || (AudioLevel = {}));
-    let currentAudioLevel = AudioLevel.mid; // prints 1
+    let currentAudioLevel = AudioLevel.mid;
 });
 //# sourceMappingURL=enums.js.map
