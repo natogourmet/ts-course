@@ -21,5 +21,12 @@
   }
 
   printAvengers(avengers);
-  
+
+
+  const avengersArr = ['Cap', 'Thor', 'Hulk', 'Ironman'];
+
+  const [cap, thor, hulk, ironman] = avengersArr;
+
+
+
 })()
