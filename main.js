@@ -11,6 +11,18 @@
         powers: ['Stand', 'Smart', 'Strong']
     };
 })();
+(() => {
+    class Mutant {
+        constructor(mutantName, name, age) {
+            this.mutantName = mutantName;
+            this.name = name;
+            this.age = age;
+        }
+        mutantPower(power) {
+            return `${this.mutantName} - ${power}`;
+        }
+    }
+})();
 () => {
     const client = {
         name: 'Nato',
