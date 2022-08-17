@@ -104,6 +104,6 @@
     "node_modules_test",
   ],
   "include": [
-    "classes"
+    "interfaces"
   ]
 }
