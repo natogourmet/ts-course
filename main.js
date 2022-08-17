@@ -64,4 +64,25 @@
         }
     }
 })();
+(() => {
+    class Apocalipsis {
+        constructor(name) {
+            this.name = name;
+        }
+        static callApocalipsis() {
+            if (!Apocalipsis.instance) {
+                Apocalipsis.instance = new Apocalipsis('Soy Apocalipsis');
+            }
+            return Apocalipsis.instance;
+        }
+        static changeName(name) {
+            Apocalipsis.instance.name = name;
+        }
+    }
+    const apocalipsis = Apocalipsis.callApocalipsis();
+    const apocalipsis2 = Apocalipsis.callApocalipsis();
+    const apocalipsis3 = Apocalipsis.callApocalipsis();
+    Apocalipsis.changeName('No Soy Apocalipsis');
+    console.log(apocalipsis, apocalipsis2, apocalipsis3);
+})();
 //# sourceMappingURL=main.js.map
