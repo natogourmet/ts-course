@@ -49,4 +49,7 @@
         }
     };
 };
+(() => {
+    let addNumbers = (a, b) => a + b;
+})();
 //# sourceMappingURL=main.js.map
