@@ -1,9 +1,9 @@
-(() => {
-
+() => {
   interface Client {
     name: string;
     age?: number;
     address: Address;
+    getFullAddress(id: string): string;
   }
 
   interface Address {
@@ -18,9 +18,12 @@
     address: {
       street: 'Calle 1',
       zip: 12345,
-      city: 'Mexico City'
-    }
-  }
+      city: 'Mexico City',
+    },
+    getFullAddress(id: string) {
+      return `${id} - ${this.name} - ${this.address.street} - ${this.address.city}`;
+    },
+  };
 
   const client2: Client = {
     name: 'Cbas',
@@ -28,8 +31,10 @@
     address: {
       street: 'Calle 3',
       zip: 54321,
-      city: 'El Santuario'
+      city: 'El Santuario',
+    },
+    getFullAddress(id: string) {
+      return `${id} - ${this.name} - ${this.address.street} - ${this.address.city}`;
     }
-  }
-  
-})
+  };
+};

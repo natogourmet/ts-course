@@ -11,15 +11,18 @@
         powers: ['Stand', 'Smart', 'Strong']
     };
 })();
-(() => {
+() => {
     const client = {
         name: 'Nato',
         age: 21,
         address: {
             street: 'Calle 1',
             zip: 12345,
-            city: 'Mexico City'
-        }
+            city: 'Mexico City',
+        },
+        getFullAddress(id) {
+            return `${id} - ${this.name} - ${this.address.street} - ${this.address.city}`;
+        },
     };
     const client2 = {
         name: 'Cbas',
@@ -27,8 +30,11 @@
         address: {
             street: 'Calle 3',
             zip: 54321,
-            city: 'El Santuario'
+            city: 'El Santuario',
+        },
+        getFullAddress(id) {
+            return `${id} - ${this.name} - ${this.address.street} - ${this.address.city}`;
         }
     };
-});
+};
 //# sourceMappingURL=main.js.map
