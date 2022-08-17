@@ -104,6 +104,6 @@
     "node_modules_test",
   ],
   "include": [
-    "ES6"
+    "classes"
   ]
 }
