@@ -23,6 +23,14 @@
       console.log('Xmen constructor');
     }
 
+    get fullName() {
+      return super.getFullName();
+    }
+
+    set fullName( name: string ) {
+      this.name = name;
+    }
+
     getFullNameFromXmen() {
       console.log(super.getFullName());
     }
